@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="textbox">
+                    <input type="email" placeholder="Email" id="email" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" id="password" required>
+                </div>
+                <div class="radio-btns">
+                    <label><input type="radio" name="user-type" value="user" checked> User</label>
+                    <label><input type="radio" name="user-type" value="trainer"> Trainer</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
